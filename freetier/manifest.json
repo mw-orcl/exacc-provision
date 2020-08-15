@@ -1,0 +1,34 @@
+{
+    "tutorials": [
+        {           
+            "title": "Introduction",
+            "description": "About ExaCC Workshop",
+            "publisheddate": "08/10/2020",
+            "filename": "../intro/intro.md"
+        },
+        {         
+            "title": "Lab 1: Provisioning Exadata Cloud@Customer System",
+            "description": "Provisioning Exadata Cloud@Customer System",
+            "publisheddate": "08/10/2020",
+            "filename": "../provision-exacc-system/provision-exacc-system.md"
+        },
+        {            
+            "title": "Lab 2: Create a VM Cluster",
+            "description": "Create a VM Cluster",
+            "publisheddate": "08/10/2020",
+            "filename": "../create-vm-cluster/create-vm-cluster.md"
+        },
+        {            
+            "title": "Lab 3: Create Backup Destination",
+            "description": "Create Backup Destination",
+            "publisheddate": "08/10/2020",
+            "filename": "../create-backup-destination/create-backup-destination.md"
+        },
+        {            
+            "title": "Lab 4: Create Oracle Database on Exadata Cloud@Customer",
+            "description": "Create Oracle Database on Exadata Cloud@Customer",
+            "publisheddate": "08/10/2020",
+            "filename": "../create-database/create-database.md"
+        }
+    ]
+}
