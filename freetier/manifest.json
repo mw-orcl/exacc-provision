@@ -13,19 +13,25 @@
             "filename": "../provision-exacc-system/provision-exacc-system.md"
         },
         {            
-            "title": "Lab 2: Create a VM Cluster",
+            "title": "Lab 2: Create VM Cluster Network",
+            "description": "Create a VM Cluster Network",
+            "publisheddate": "08/10/2020",
+            "filename": "../create-vm-cluster-network/create-vm-cluster-network.md"
+        },        
+        {            
+            "title": "Lab 3: Create a VM Cluster",
             "description": "Create a VM Cluster",
             "publisheddate": "08/10/2020",
             "filename": "../create-vm-cluster/create-vm-cluster.md"
         },
         {            
-            "title": "Lab 3: Create Backup Destination",
+            "title": "Lab 4: Create Backup Destination",
             "description": "Create Backup Destination",
             "publisheddate": "08/10/2020",
             "filename": "../create-backup-destination/create-backup-destination.md"
         },
         {            
-            "title": "Lab 4: Create Oracle Database on Exadata Cloud@Customer",
+            "title": "Lab 5: Create Oracle Database on Exadata Cloud@Customer",
             "description": "Create Oracle Database on Exadata Cloud@Customer",
             "publisheddate": "08/10/2020",
             "filename": "../create-database/create-database.md"
