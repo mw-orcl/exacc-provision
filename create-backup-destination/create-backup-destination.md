@@ -39,11 +39,11 @@ The Exadata Cloud@Customer backup facility can also store backups on Oracle Clou
 
   - If you select **Recovery Appliance**, then you must also specify the following for Zero Data Loss Recovery Appliance:
 
-    - **Provide the Recovery Appliance connection string:** Specify the Oracle Net Services connection string that connects to the appliance.
+    - **Provide the Recovery Appliance connection string:** Specify the Oracle Net Services connection string that connects to the appliance. This information is typically provided by the Zero Data Loss Recovery Appliance administrator.
 
-    - **Provide the Virtual Private Catalog (VPC) Users:** Provide a VPC user name for connecting to the Zero Data Loss Recovery Appliance. 
+    - **Provide the Virtual Private Catalog (VPC) Users:** Provide a VPC user name for connecting to the Zero Data Loss Recovery Appliance. This information is typically provided by the Zero Data Loss Recovery Appliance administrator.
 
-      ![image-20200815155421595](images/image-20200815155421595.png)
+      ![image-20200818101011975](images/image-20200818101011975.png)
 
   - If you select **Network Storage (NFS)**, then you must also specify the following:
 

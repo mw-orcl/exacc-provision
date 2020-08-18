@@ -10,6 +10,7 @@ To create a VM cluster, ensure that you that have:
 
 - Active Exadata infrastructure available to host the VM cluster.
 - A validated VM cluster network available for the VM cluster to use.
+- SSH Key pair use to access the VM cluster compute nodes.
 
 ## Create a VM Cluster
 

@@ -4,8 +4,7 @@ Before you can create any databases on your Exadata Cloud@Customer infrastructur
 
 ## Prerequisites
 
-- Provision the Exadata Cloud@Customer System
-- Prepare a SSH Key pair
+- Provision the Exadata infrastructure and actived
 
 ## Step 1. Create a VM Cluster Network
 

@@ -54,7 +54,7 @@ Before you can create and use an Oracle Database on Exadata Cloud@Customer, you 
 
 - **Provide the administration password**: Provide and confirm the Oracle Database administration password. This password is used for administration accounts and functions in the database, including:
 
-  - The password for the Oracle Database `SYS` and `SYSTEM`users.
+  - The password for the Oracle Database `SYS` and `SYSTEM` users.
 
   - The Transparent Data Encryption (TDE) keystore password.
 
