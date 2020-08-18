@@ -32,7 +32,7 @@ Provisioning an Oracle Exadata Cloud@Customer system is a collaborative process.
 
 4. In the Create Exadata Infrastructure page, provide the requested information:
 
-- **Oracle Cloud Infrastructure region:** The region that is associated with your Oracle Exadata infrastructure cannot be changed after the Oracle Exadata infrastructure is created. I you want switch regions now, use the **Region** menu at the top of the console.
+- **Oracle Cloud Infrastructure region:** The region that is associated with your Oracle Exadata infrastructure cannot be changed after the Oracle Exadata infrastructure is created. If you want switch regions now, use the **Region** menu at the top of the console.
 
 - **Choose a compartment:** From the list of available compartments, choose the compartment that you want to contain the Oracle Exadata infrastructure.
 
@@ -56,28 +56,31 @@ Provisioning an Oracle Exadata Cloud@Customer system is a collaborative process.
 
     The maximum CIDR block prefix length is `/23`, The minimum CIDR block prefix length is `/16`.
 
-- **InfiniBand Network CIDR Block:** Specifies the IP address range for the Exadata InfiniBand network using CIDR notation. The Exadata InfiniBand network provides the high-speed low-latency interconnect used by Exadata software for internal communications between various system components. You can accept the suggested default, or specify a custom value.
+  - **InfiniBand Network CIDR Block:** Specifies the IP address range for the Exadata InfiniBand network using CIDR notation. The Exadata InfiniBand network provides the high-speed low-latency interconnect used by Exadata software for internal communications between various system components. You can accept the suggested default, or specify a custom value.
 
-  The maximum CIDR block prefix length is `/22`,  The minimum CIDR block prefix length is `/19`.
+    The maximum CIDR block prefix length is `/22`,  The minimum CIDR block prefix length is `/19`.
+
+  ![image-20200818105326290](images/image-20200818105326290.png)
 
 - **Configure DNS and NTP services**
 
   Each Exadata Cloud@Customer system requires access to Domain Names System (DNS) and Network Time Protocol (NTP) services. The following settings specify the servers that provide these services to the Exadata infrastructure:
 
   - **DNS Servers:** Provide the IP address of a DNS server that is accessible using the control plane network. You may specify up to three DNS servers.
+  
   - **NTP Servers:** Provide the IP address of an NTP server that is accessible using the control plane network. You may specify up to three NTP servers.
-
-![image-20200815100929011](images/image-20200815100929011.png)
+  
+    ![image-20200818105608775](images/image-20200818105608775.png)
 
 - **Time Zone:** The default time zone for the Exadata Infrastructure is UTC, but you can specify a different time zone. Select the **Select another time zone** option, select a **Region** or **country**, and then select the corresponging **Time zone**.
 
-  ![image-20200815101201047](images/image-20200815101201047.png)
+  ![image-20200818105803871](images/image-20200818105803871.png)
 
 5. Click **Create Exadata Infrastructure**, then the Infrastructure Details page appears.
 
    ![image-20200815101932904](images/image-20200815101932904.png)
 
-6. Initially after creation, the state of the Oracle Exadata infrastructure is **Requires-Activation**.
+6. Initially after creation, the state of the Oracle Exadata infrastructure is **Requires Activation**.
 
    ![image-20200815102146423](images/image-20200815102146423.png)
 
@@ -89,7 +92,7 @@ Provisioning an Oracle Exadata Cloud@Customer system is a collaborative process.
 
    ![image-20200815103447912](images/image-20200815103447912.png)
 
-2. A zip file will be downloaded. The file name like: `ocid1.exadatainfrastructure.oc1.phx.abyhqljshftbqvs2tbqywxwt6w2a7qz5lfgmeto3idatn6q5hykkusr7lrxq.zip`
+2. A zip file will be downloaded. The file name like: `ocid1.exadatainfrastructure.oc1.phx.abyhqljshftbqvs2...atn6q5hykkusr7lrxq.zip`
 
 3. Provide the generated infrastructure configuration file to Oracle, ensure that it has not been altered in any way. Also, ensure that you do not edit the Oracle Exadata infrastructure after you download the configuration file and provide it to Oracle. Oracle will installation and initial the Exadata Cloud@Customer system base on your configuration.
 
@@ -111,4 +114,4 @@ Provisioning an Oracle Exadata Cloud@Customer system is a collaborative process.
 
    ![image-20200815114516051](images/image-20200815114516051.png)
 
-Now, You are successfully create the Exadata Cloud@Customer Infrastructure. You can go on to the next lab.
+Now, you are successfully create the Exadata Cloud@Customer Infrastructure. You can go on to the next lab.

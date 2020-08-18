@@ -36,9 +36,9 @@ To create a VM cluster, ensure that you that have:
 
 - **Select a VM Cluster Network:** From the list, choose a VM cluster network definition to use for the VM cluster. You must have an available and validated VM cluster network before you can create a VM cluster.
 
-- **Choose the Oracle Grid Infrastructure version: **From the list, choose the of Oracle Grid Infrastructure release that you want to install on the VM cluster.
+- **Choose the Oracle Grid Infrastructure version:** From the list, choose the of Oracle Grid Infrastructure release that you want to install on the VM cluster.
 
-  ![image-20200815150305112](images/image-20200815150305112.png)
+  ![image-20200818111718938](images/image-20200818111718938.png)![image-20200818111828341](images/image-20200818111828341.png)
 
 - **Specify the OCPU count per VM:** Specify the OCPU count for each individual VM. The count must be a value greater than 2 and up to the number of remaining unallocated CPU cores.
 
@@ -65,8 +65,6 @@ To create a VM cluster, ensure that you that have:
   
 
 - **Add SSH Key:** Specify the public key portion of an SSH key pair that you want to use to access the VM cluster compute nodes. You can upload a file containing the key, or paste the SSH key string.
-
-  To provide multiple keys, upload multiple key files or paste each key into a separate field. For pasted keys, ensure that each key is on a single, continuous line. The length of the combined keys cannot exceed 10,000 characters.
 
 - **Choose a license type:**
 

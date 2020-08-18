@@ -5,7 +5,6 @@ You can create one or more databases on each Oracle Exadata Cloud@Customer syste
 ## Prerequisites
 
 Before you can create and use an Oracle Database on Exadata Cloud@Customer, you must:
-
 - Provision Exadata Cloud@Customer infrastructure
 - Configure a VM cluster
 - Create any required backup destinations
@@ -14,7 +13,7 @@ Before you can create and use an Oracle Database on Exadata Cloud@Customer, you 
 
 1. Open the navigation menu Under **Database**, and click **Exadata Cloud@Customer**.
 
-   VM Clusters is selected by default. Choose your **Region** and **Compartment**. Click the name of a VM cluster where you want to create the database.
+   **VM Clusters** is selected by default. Choose your **Region** and **Compartment**. Click the name of a VM cluster where you want to create the database.
 
    ![image-20200815162606300](images/image-20200815162606300.png)
 
@@ -54,9 +53,8 @@ Before you can create and use an Oracle Database on Exadata Cloud@Customer, you 
 
 - **Provide the administration password**: Provide and confirm the Oracle Database administration password. This password is used for administration accounts and functions in the database, including:
 
-  - The password for the Oracle Database `SYS` and `SYSTEM` users.
-
-  - The Transparent Data Encryption (TDE) keystore password.
+   - The password for the Oracle Database `SYS` and `SYSTEM` users.
+   - The Transparent Data Encryption (TDE) keystore password.
 
    ![image-20200815163740458](images/image-20200815163740458.png)
 
@@ -74,17 +72,13 @@ Before you can create and use an Oracle Database on Exadata Cloud@Customer, you 
 
 - **Backup Destination Type:** Select a backup destination for the database. From the list, choose an option:
 
-  - **None**: Select to not define a backup configuration for the database.
-
-  - **Local**: Select to store backups locally in the Oracle Exadata Storage Servers on your Oracle Exadata Cloud@Customer system.
+   - **None**: Select to not define a backup configuration for the database.
+   - **Local**: Select to store backups locally in the Oracle Exadata Storage Servers on your Oracle Exadata Cloud@Customer system.
 
     This option is available only if you enabled backups on local Oracle Exadata storage in the VM cluster that you want to host the database.
-
-  - **Object Storage**: Select to store backups in an Oracle-managed object storage container on Oracle Cloud Infrastructure.
-
-  - **NFS**: Select to store backups in one of your previously defined backup destinations that uses Network File System (NFS) storage.
-
-  - **Recovery Appliance**: Select to store backups in one of your previously defined backup destinations that uses Oracle Zero Data Loss Recovery Appliance.
+   - **Object Storage**: Select to store backups in an Oracle-managed object storage container on Oracle Cloud Infrastructure.
+   - **NFS**: Select to store backups in one of your previously defined backup destinations that uses Network File System (NFS) storage.
+   - **Recovery Appliance**: Select to store backups in one of your previously defined backup destinations that uses Oracle Zero Data Loss Recovery Appliance.
 
 - **Enable automatic backups:** Select this option to enable daily backups using the policy for automatic backups.
 

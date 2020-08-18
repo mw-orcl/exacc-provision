@@ -26,35 +26,32 @@ The VM cluster network specifies network resources, such as IP addresses and hos
 
 - In the Data Center Network Details, Provide client network details:
 
-  - **VLAN ID:** Provide a virtual LAN identifier (VLAN ID) for the client network between `1` and `4094`, inclusive. To specify no VLAN tagging, enter "`1`". (This is equivalent to a "`NULL`" VLAN ID tag value.)
+    - **VLAN ID:** Provide a virtual LAN identifier (VLAN ID) for the client network between `1` and `4094`, inclusive. To specify no VLAN tagging, enter "`1`". (This is equivalent to a "`NULL`" VLAN ID tag value.)
+    - **CIDR Block:** Using CIDR notation, provide the IP address range for the client network.
+    - **Netmask:** Specify the IP netmask for the client network.
+    - **Gateway:** Specify the IP address of the client network gateway.
+    - **Hostname Prefix:** Specify the prefix that is used to generate the hostnames in the client network.
+    - **Domain Name:** Specify the domain name for the client network.
+  
 
-  - **CIDR Block:** Using CIDR notation, provide the IP address range for the client network.
+ ![image-20200815130423738](./images/image-20200815130423738.png)
 
-  - **Netmask:** Specify the IP netmask for the client network.
-
-  - **Gateway:** Specify the IP address of the client network gateway.
-
-  - **Hostname Prefix:** Specify the prefix that is used to generate the hostnames in the client network.
-
-  - **Domain Name:** Specify the domain name for the client network.
-
-![image-20200815130423738](./images/image-20200815130423738.png)
 
 - Provide backup network details. The backup network is the secondary channel for connectivity to Exadata Cloud@Customer resources. It is typically used to segregate application connections on the client network from other network traffic.
 
-  - **VLAN ID:** Provide a virtual LAN identifier (VLAN ID) for the backup network between `1` and `4094`, inclusive. To specify no VLAN tagging, enter "`1`". (This is equivalent to a "`NULL`" VLAN ID tag value.)
-  - **CIDR Block:** Using CIDR notation, provide the IP address range for the backup network.
-  - **Netmask:** Specify the IP netmask for the backup network.
-  - **Gateway:** Specify the IP address of the backup network gateway.
-  - **Hostname Prefix:** Specify the prefix that is used to generate the hostnames in the backup network.
-  - **Domain Name:** Specify the domain name for the backup network.
+    - **VLAN ID:** Provide a virtual LAN identifier (VLAN ID) for the backup network between `1` and `4094`, inclusive. To specify no VLAN tagging, enter "`1`". (This is equivalent to a "`NULL`" VLAN ID tag value.)
+    - **CIDR Block:** Using CIDR notation, provide the IP address range for the backup network.
+    - **Netmask:** Specify the IP netmask for the backup network.
+    - **Gateway:** Specify the IP address of the backup network gateway.
+    - **Hostname Prefix:** Specify the prefix that is used to generate the hostnames in the backup network.
+    - **Domain Name:** Specify the domain name for the backup network.
 
   ![image-20200815125637065](./images/image-20200815125637065.png)
 
 - Provide DNS and NTP server details. The VM cluster network requires access to Domain Names System (DNS) and Network Time Protocol (NTP) services.
 
-  - **DNS Servers:** Provide the IP address of a DNS server that is accessible using the client network. You may specify up to three DNS servers.
-  - **NTP Servers:** Provide the IP address of an NTP server that is accessible using the client network. You may specify up to three NTP servers.
+    - **DNS Servers:** Provide the IP address of a DNS server that is accessible using the client network. You may specify up to three DNS servers.
+    - **NTP Servers:** Provide the IP address of an NTP server that is accessible using the client network. You may specify up to three NTP servers.
 
 ![image-20200815130115981](./images/image-20200815130115981.png)
 
@@ -80,7 +77,7 @@ You can download a configuration file, supply to your network administrator. The
 
    ![image-20200815141003516](images/image-20200815141003516.png)
 
-3. Your browser downloads a file containing the VM cluster network configuration details. The file name like:  `ocid1.vmclusternetwork.oc1.phx.abyhqljsjh4grhslser7b2pwiovdmanlx6swekozscoue65dhkb3edsppfja.json`
+3. Your browser downloads a file containing the VM cluster network configuration details. The file name like:  `ocid1.vmclusternetwork.oc1.phx.abyhqljsjh...hkb3edsppfja.json`
 
    
 
@@ -96,7 +93,7 @@ You can only validate a VM cluster network if its current state is **Requires Va
 
    ![image-20200815142038887](images/image-20200815142038887.png)
 
-3. After successful validation, the state of the VM cluster network changes to **Validated** and the VM cluster network is ready to use.
+3. After successful validation, the state of the VM cluster network changes to **Validated** and the VM cluster network is ready to use. If validation fails for any reason, examine the error message and resolve the issue before repeating validation.
 
    
 

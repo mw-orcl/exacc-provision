@@ -51,12 +51,10 @@ The Exadata Cloud@Customer backup facility can also store backups on Oracle Clou
 
       ![image-20200815155822578](images/image-20200815155822578.png)
 
-       
 
-  
+
 
 4. Click **Create Backup Destination**. The Backup Destination Details page displays the newly created backup destination.
 
-   ![image-20200815160009501](images/image-20200815160009501.png)
+![image-20200815160009501](images/image-20200815160009501.png)
 
-   
