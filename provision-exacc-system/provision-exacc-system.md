@@ -52,13 +52,11 @@ Provisioning an Oracle Exadata Cloud@Customer system is a collaborative process.
 
   Each Oracle Exadata Cloud@Customer system contains two system networks, which are not connected to your corporate network. The following settings define IP address allocations for these networks:
 
-    - **Administration Network CIDR Block:** Specifies the IP address range for the administration network using CIDR notation. The administration network provides connectivity that enables Oracle to administer the Exadata system components, such as the Exadata compute servers, storage servers, network switches, and power distribution units. You can accept the suggested default, or specify a custom value.
+    - **Administration Network CIDR Block:** Specifies the IP address range for the administration network using CIDR notation. The administration network provides connectivity that enables Oracle to administer the Exadata system components, such as the Exadata compute servers, storage servers, network switches, and power distribution units. You can accept the suggested default, or specify a custom value. The maximum CIDR block prefix length is `/23`, The minimum CIDR block prefix length is `/16`.
 
-    The maximum CIDR block prefix length is `/23`, The minimum CIDR block prefix length is `/16`.
+    - **InfiniBand Network CIDR Block:** Specifies the IP address range for the Exadata InfiniBand network using CIDR notation. The Exadata InfiniBand network provides the high-speed low-latency interconnect used by Exadata software for internal communications between various system components. You can accept the suggested default, or specify a custom value. The maximum CIDR block prefix length is `/22`,  The minimum CIDR block prefix length is `/19`.
 
-    - **InfiniBand Network CIDR Block:** Specifies the IP address range for the Exadata InfiniBand network using CIDR notation. The Exadata InfiniBand network provides the high-speed low-latency interconnect used by Exadata software for internal communications between various system components. You can accept the suggested default, or specify a custom value.
-
-    The maximum CIDR block prefix length is `/22`,  The minimum CIDR block prefix length is `/19`.
+    
 
   ![image-20200818105326290](images/image-20200818105326290.png)
 

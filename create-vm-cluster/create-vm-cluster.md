@@ -40,15 +40,13 @@ To create a VM cluster, ensure that you that have:
 
   ![image-20200818111718938](images/image-20200818111718938.png)![image-20200818111828341](images/image-20200818111828341.png)
 
-- **Specify the OCPU count per VM:** Specify the OCPU count for each individual VM. The count must be a value greater than 2 and up to the number of remaining unallocated CPU cores.
+- **Configure VM cluster**: You need configure the vm cluster with OCPU, memory and local file system size. 
 
-- **Requested OCPU count for the VM Cluster:** Displays the total number of CPU cores that are allocated to the VM cluster based on the value you specified in the **Specify the OCPU count per VM** field.
-
-- **Specify the memory per VM (GB):** Specify the memory for each individual VM. The vaule must be a multiple of 1 GB and is limited by the available memory on the Exadata infrastructure.
-
-- **Requested memory for the VM Cluster (GB):** Displays the total amount of memory that are allocated to the VM cluster based on the value you specified in the Specify the memory per VM (GB) field.
-
-- **Specify the local file system size per VM (GB):** Specify the size for each individual VM. The value must be a multiple of 1 GB and is limited by the available size of the file system on the X8-2 and X7-2 infrastructures.
+   - **Specify the OCPU count per VM:** Specify the OCPU count for each individual VM. The count must be a value greater than 2 and up to the number of remaining unallocated CPU cores.
+   - **Requested OCPU count for the VM Cluster:** Displays the total number of CPU cores that are allocated to the VM cluster based on the value you specified in the **Specify the OCPU count per VM** field.
+   - **Specify the memory per VM (GB):** Specify the memory for each individual VM. The vaule must be a multiple of 1 GB and is limited by the available memory on the Exadata infrastructure.
+   - **Requested memory for the VM Cluster (GB):** Displays the total amount of memory that are allocated to the VM cluster based on the value you specified in the Specify the memory per VM (GB) field.
+   - **Specify the local file system size per VM (GB):** Specify the size for each individual VM. The value must be a multiple of 1 GB and is limited by the available size of the file system on the X8-2 and X7-2 infrastructures.
 
   ![image-20200815151143269](images/image-20200815151143269.png)
 
