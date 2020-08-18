@@ -38,7 +38,6 @@ Before you can create and use an Oracle Database on Exadata Cloud@Customer, you 
 - **Database Home**: Select an existing Database Home or create one as applicable. Note that this field is not available when you create a Database from the Database Home details page.
 
      - **Select an existing Database Home**: If one or more Database Homes already exist for the database version you have selected, then this option is selected by default. And, you will be presented with a list of Database Homes. Select a Database Home from the list.
-
      - **Create a new Database Home**: If no Database Homes exist for the database version you have selected, then this option is selected by default.
 
 - **Provide the name of the first PDB**: (Optional) Specify the name for the first PDB. A PDB is created with the database.
@@ -61,7 +60,6 @@ Before you can create and use an Oracle Database on Exadata Cloud@Customer, you 
 - **Choose the database workload type**: Select the workload type that best suits your application from one of the following options:
 
      - **Online Transactional Processing (OLTP)**: Select this option to configure the database for a transactional workload, with a bias toward high volumes of random data access.
-
      - **Decision Support System (DSS)**: Select this option to configure the database for a decision support or data warehouse workload, with a bias toward large data scanning operations.
 
    ![image-20200815163951654](images/image-20200815163951654.png)
@@ -82,7 +80,7 @@ Before you can create and use an Oracle Database on Exadata Cloud@Customer, you 
 
   
 
-4. Click **Create Database**. When the Database creation is complete, the status changes from `Provisioning` to `Available`.
+4.Click **Create Database**. When the Database creation is complete, the status changes from `Provisioning` to `Available`.
 
    ![image-20200815164717863](images/image-20200815164717863.png)
 
