@@ -6,7 +6,7 @@ If you want to store backups on a Recovery Appliance, or on a network file stora
 
 The Exadata Cloud@Customer backup facility can also store backups on Oracle Cloud Infrastructure object storage, or on local Exadata storage on your Exadata Cloud@Customer system. However, you do not need to create a backup destination for any of these other locations. Instead, applicable options for backup to cloud object storage or local Exadata storage are available directly when you create a database.
 
-##Prerequisites
+## Prerequisites
 
 1.For a Zero Data Loss Recovery Appliance backup destination:
 - The appliance must be configured with a virtual private catalog (VPC) user, which is used for taking the backups.
