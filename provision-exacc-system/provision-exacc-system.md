@@ -74,11 +74,11 @@ Provisioning an Oracle Exadata Cloud@Customer system is a collaborative process.
 
   ![image-20200818105803871](images/image-20200818105803871.png)
 
-5. Click **Create Exadata Infrastructure**, then the Infrastructure Details page appears.
+5.Click **Create Exadata Infrastructure**, then the Infrastructure Details page appears.
 
    ![image-20200815101932904](images/image-20200815101932904.png)
 
-6. Initially after creation, the state of the Oracle Exadata infrastructure is **Requires Activation**.
+6.Initially after creation, the state of the Oracle Exadata infrastructure is **Requires Activation**.
 
    ![image-20200815102146423](images/image-20200815102146423.png)
 
