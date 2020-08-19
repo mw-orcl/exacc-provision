@@ -8,11 +8,12 @@ The Exadata Cloud@Customer backup facility can also store backups on Oracle Clou
 
 ##Prerequisites
 
-1. For a Zero Data Loss Recovery Appliance backup destination:
+1.For a Zero Data Loss Recovery Appliance backup destination:
 - The appliance must be configured with a virtual private catalog (VPC) user, which is used for taking the backups.
 - The appliance must be configured with the unique database name of the database being backed up, and a mapping to the VPC user.
 - The appliance must be accessible from the Exadata Cloud@Customer system using the Oracle Net Services connection string, which is provided by the Zero Data Loss Recovery Appliance administrator.
-2. For an NFS backup destination:
+
+2.For an NFS backup destination:
 - You must mount the NFS server location to a local mount point directory on each node in the VM cluster.
 - The local directory path and the NFS server location must each be the same across all of the VM cluster nodes.
 - You must ensure that the NFS mount is maintained continuously on all of the VM cluster nodes.
