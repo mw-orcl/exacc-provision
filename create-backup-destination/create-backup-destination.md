@@ -9,14 +9,14 @@ The Exadata Cloud@Customer backup facility can also store backups on Oracle Clou
 ##Prerequisites
 
 1. For a Zero Data Loss Recovery Appliance backup destination:
-   - The appliance must be configured with a virtual private catalog (VPC) user, which is used for taking the backups.
-   - The appliance must be configured with the unique database name of the database being backed up, and a mapping to the VPC user.
-   - The appliance must be accessible from the Exadata Cloud@Customer system using the Oracle Net Services connection string, which is provided by the Zero Data Loss Recovery Appliance administrator.
+- The appliance must be configured with a virtual private catalog (VPC) user, which is used for taking the backups.
+- The appliance must be configured with the unique database name of the database being backed up, and a mapping to the VPC user.
+- The appliance must be accessible from the Exadata Cloud@Customer system using the Oracle Net Services connection string, which is provided by the Zero Data Loss Recovery Appliance administrator.
 2. For an NFS backup destination:
-   - You must mount the NFS server location to a local mount point directory on each node in the VM cluster.
-   - The local directory path and the NFS server location must each be the same across all of the VM cluster nodes.
-   - You must ensure that the NFS mount is maintained continuously on all of the VM cluster nodes.
-   - The NFS-mounted file system must be readable and writable by the `oracle` operating system user on all of the VM cluster nodes.
+- You must mount the NFS server location to a local mount point directory on each node in the VM cluster.
+- The local directory path and the NFS server location must each be the same across all of the VM cluster nodes.
+- You must ensure that the NFS mount is maintained continuously on all of the VM cluster nodes.
+- The NFS-mounted file system must be readable and writable by the `oracle` operating system user on all of the VM cluster nodes.
 
 ## Create a Backup Destination
 
@@ -30,17 +30,17 @@ The Exadata Cloud@Customer backup facility can also store backups on Oracle Clou
 
 3. Provide the requested information in the **Create Backup Destination** page:
 
-   - Choose a compartment: From the list of available compartments, choose the compartment that you want to contain the backup destination.
-   - Name your backup destination: Specify a user-friendly name that you can use to identify the backup destination. 
-   - Choose either a Zero Data Loss Recovery Appliance or a network file system (NFS) backup destination.
+- Choose a compartment: From the list of available compartments, choose the compartment that you want to contain the backup destination.
+- Name your backup destination: Specify a user-friendly name that you can use to identify the backup destination. 
+- Choose either a Zero Data Loss Recovery Appliance or a network file system (NFS) backup destination.
    - If you select **Recovery Appliance**, then you must also specify the following for Zero Data Loss Recovery Appliance:
-     - **Provide the Recovery Appliance connection string:** Specify the Oracle Net Services connection string that connects to the appliance. This information is typically provided by the Zero Data Loss Recovery Appliance administrator.
-     - **Provide the Virtual Private Catalog (VPC) Users:** Provide a VPC user name for connecting to the Zero Data Loss Recovery Appliance. This information is typically provided by the Zero Data Loss Recovery Appliance administrator.
+      - **Provide the Recovery Appliance connection string:** Specify the Oracle Net Services connection string that connects to the appliance. This information is typically provided by the Zero Data Loss Recovery Appliance administrator.
+      - **Provide the Virtual Private Catalog (VPC) Users:** Provide a VPC user name for connecting to the Zero Data Loss Recovery Appliance. This information is typically provided by the Zero Data Loss Recovery Appliance administrator.
 
       ![image-20200818101011975](images/image-20200818101011975.png)
 
    - If you select **Network Storage (NFS)**, then you must also specify the following:
-     - **Provide the local NFS mount point path:** Specify the local directory path on each VM cluster node where the NFS server location is mounted. The local directory path and the NFS server location must each be the same across all of the VM cluster nodes. 
+      - **Provide the local NFS mount point path:** Specify the local directory path on each VM cluster node where the NFS server location is mounted. The local directory path and the NFS server location must each be the same across all of the VM cluster nodes. 
 
       ![image-20200815155822578](images/image-20200815155822578.png)
 
