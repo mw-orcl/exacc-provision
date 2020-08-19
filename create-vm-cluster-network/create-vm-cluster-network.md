@@ -32,7 +32,7 @@ The VM cluster network specifies network resources, such as IP addresses and hos
     - **Gateway:** Specify the IP address of the client network gateway.
     - **Hostname Prefix:** Specify the prefix that is used to generate the hostnames in the client network.
     - **Domain Name:** Specify the domain name for the client network.
-  
+
 
  ![image-20200815130423738](./images/image-20200815130423738.png)
 
@@ -95,6 +95,8 @@ You can only validate a VM cluster network if its current state is **Requires Va
 
 3. After successful validation, the state of the VM cluster network changes to **Validated** and the VM cluster network is ready to use. If validation fails for any reason, examine the error message and resolve the issue before repeating validation.
 
+  ![image-20200818184152711](images/image-20200818184152711.png)
+  
    
 
 
