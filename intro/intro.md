@@ -8,7 +8,7 @@ This is the order process of the Gen2 Exadata Cloud@Customer:
 
 ![](images/image-20200815085909909.png)
 
-In this workshop, You will learn how to provision an Exadata Cloud@Customer. It's assume you have already have the OCI Cloud Account and meet the ExaCC preparing requirement. Please refer [the link to check the ExaCC preparation](https://docs.cloud.oracle.com/en-us/iaas/exadata/doc/eccpreparing.html).
+In this workshop, You will learn how to provision an Exadata Cloud@Customer. It assumes you already have the OCI Cloud Account and meet the ExaCC preparation requirements. Please refer to [the link to check the ExaCC preparation](https://docs.cloud.oracle.com/en-us/iaas/exadata/doc/eccpreparing.html).
 
 
 ## Acknowledgements

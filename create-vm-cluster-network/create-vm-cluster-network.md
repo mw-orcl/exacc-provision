@@ -4,7 +4,7 @@ Before you can create any databases on your Exadata Cloud@Customer infrastructur
 
 ## Prerequisites
 
-- Provision the Exadata infrastructure and actived
+- Provision the Exadata infrastructure and activated
 
 ## Step 1. Create a VM Cluster Network
 
@@ -12,7 +12,7 @@ The VM cluster network specifies network resources, such as IP addresses and hos
 
 1. Log into your OCI Console, open the navigation menu. Under **Oracle Database**, click **Exadata Cloud@Customer**.
 
-2. Click **Exadata Infrastructure**. Choose correct Region and Compartment. Then click the name of the Exadata infrastructure for which you create before.
+2. Click **Exadata Infrastructure**. Choose correct Region and Compartment. Then click the name of the Exadata infrastructure for which you created before.
 
    ![image-20200815123524855](./images/image-20200815123524855.png)
 
@@ -96,7 +96,7 @@ You can only validate a VM cluster network if its current state is **Requires Va
 3. After successful validation, the state of the VM cluster network changes to **Validated** and the VM cluster network is ready to use. If validation fails for any reason, examine the error message and resolve the issue before repeating validation.
 
   ![image-20200818184152711](images/image-20200818184152711.png)
-  
+
    
 
 

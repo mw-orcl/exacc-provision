@@ -86,13 +86,13 @@ Provisioning an Oracle Exadata Cloud@Customer system is a collaborative process.
 
 ##Step 2. Download a File Containing Configuration Data
 
-1. Now you are in the Exadata Infrastructure Details page. You can click **Edit Infrastructure Networking** to modify your configuration. After you are ensure that all the attributes are correct. Click **Download Configuration**.
+1. Now you are in the Exadata Infrastructure Details page. You can click **Edit Infrastructure Networking** to modify your configuration. After you are sure that all the attributes are correct. Click **Download Configuration**.
 
    ![image-20200815103447912](images/image-20200815103447912.png)
 
 2. A zip file will be downloaded. The file name like: `ocid1.exadatainfrastructure.oc1.phx.abyhqljshftbqvs2...atn6q5hykkusr7lrxq.zip`
 
-3. Provide the generated infrastructure configuration file to Oracle, ensure that it has not been altered in any way. Also, ensure that you do not edit the Oracle Exadata infrastructure after you download the configuration file and provide it to Oracle. Oracle will installation and initial the Exadata Cloud@Customer system base on your configuration.
+3. Provide the generated infrastructure configuration file to Oracle, ensure that it has not been altered in any way. Also, ensure that you do not edit the Oracle Exadata infrastructure after you download the configuration file and provide it to Oracle. Oracle will install and initialize the Exadata Cloud@Customer system based on your configuration.
 
    
 
